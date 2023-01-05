@@ -1,2 +1,4 @@
 ng new store --routing --skip-tests --minimal --> inicializate project 
 ng add @angular/material --> add possibility for use componets already
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init --> config file
