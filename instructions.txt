@@ -1,1 +1,2 @@
 ng new store --routing --skip-tests --minimal --> inicializate project 
+ng add @angular/material --> add possibility for use componets already
