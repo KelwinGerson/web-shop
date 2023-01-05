@@ -1,0 +1,14 @@
+<!-- like header -->
+<mat-toolbar class="max-w-7x1 mx-auto border-x justify-between">
+    <a routerLink="home"> Code with Kelwin Store </a>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+        <mat-icon
+            [matBadge]="1"
+            matBadgeColor="warn"
+        >shopping_cart</mat-icon>
+    </button>
+    <!-- take a reference in line 4 'button' -->
+    <mat-menu #menu="matMenu">
+        <div class="p-3 divide-y divide-solid"></div>
+    </mat-menu>
+</mat-toolbar>
